@@ -13,6 +13,8 @@
         siteName = "TD WebBroker Portal";        
     } else if (host.includes("easyweb.td.com")) {
         siteName = "TD Easyweb Portal";           
+    } else if (host.includes("td")) {
+        siteName = "TD Easyweb and WebBroker Portal";            
     }
 
 
