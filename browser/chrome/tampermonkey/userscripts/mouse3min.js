@@ -9,9 +9,9 @@
         siteName = "Wealthsimple Portfolio";
     } else if (host.includes("interactivebrokers")) {
         siteName = "IBKR Client Portal";
-    } else if (host.includes("webbroker")) {
+    } else if (host.includes("webbroker.td.com")) {
         siteName = "TD WebBroker Portal";        
-    } else if (host.includes("easyweb")) {
+    } else if (host.includes("easyweb.td.com")) {
         siteName = "TD Easyweb Portal";           
     }
 
