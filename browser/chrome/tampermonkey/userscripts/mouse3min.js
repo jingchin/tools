@@ -5,7 +5,7 @@
     const host = window.location.hostname;
     let siteName = "Unknown Site";
 
-    if (host.includes("wealthsimple")) {
+    if (host.includes("my.wealthsimple.com")) {
         siteName = "Wealthsimple Portfolio";
     } else if (host.includes("interactivebrokers")) {
         siteName = "IBKR Client Portal";
