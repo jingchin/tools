@@ -9,9 +9,12 @@
         siteName = "Wealthsimple Portfolio";
     } else if (host.includes("interactivebrokers")) {
         siteName = "IBKR Client Portal";
-    } else if (host.includes("WebBroker")) {
-        siteName = "TD Client Portal";        
+    } else if (host.includes("webbroker")) {
+        siteName = "TD WebBroker Portal";        
+    } else if (host.includes("easyweb")) {
+        siteName = "TD Easyweb Portal";           
     }
+
 
     console.log(`[Automation] ${siteName} Keep-Alive is now ACTIVE.`);
 
